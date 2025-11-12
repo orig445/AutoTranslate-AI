@@ -13,7 +13,7 @@ chrome.commands.onCommand.addListener(async (command) => {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
-            "Authorization": "Bearer KEY_HERE"
+            "Authorization": "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"
           },
           body: JSON.stringify({
             model: "gpt-3.5-turbo",
